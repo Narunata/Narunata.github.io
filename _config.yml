@@ -74,20 +74,20 @@ paginate_path: "page/:num/"
 
 #live2D
 live2d:
-    enable: true
-    scriptFrom: local
-    pluginRootPath: live2dw/
-    pluginJsPath: lib/
-    pluginModelPath: assets/
-    tagMode: false
-    log: false
-    model:
-        use: live2d_models/live2d-widget-model-hijiki
-    display:
-        position: right
-        width: 150
-        height: 300
-    mobile:
-        show: true
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-hijiki
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
 
 
